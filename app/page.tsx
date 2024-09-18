@@ -1,4 +1,5 @@
 import About from "./components/mainPage/about";
+import BackToTop from "./components/mainPage/backToTop";
 import ContactForm from "./components/mainPage/contact";
 import Footer from "./components/mainPage/footer";
 import Hero from "./components/mainPage/hero";
@@ -16,6 +17,7 @@ export default function Home() {
       <Projects />
       <ContactForm />
       <Footer />
+      <BackToTop />
     </div>
   );
 }
