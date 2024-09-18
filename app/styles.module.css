@@ -1,0 +1,49 @@
+
+.beam {
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, rgba(255, 255, 255, 0.154), transparent);
+    opacity: 0.5;
+    animation: glide 10s linear infinite;
+  }
+  
+  .beam1 {
+    left: 10%;
+    animation-duration: 14s;
+  }
+  
+  .beam2 {
+    left: 25%;
+    animation-duration: 15s;
+  }
+  
+  .beam3 {
+    left: 40%;
+    animation-duration: 16s;
+  }
+  
+  .beam4 {
+    left: 55%;
+    animation-duration: 13s;
+  }
+  
+  .beam5 {
+    left: 70%;
+    animation-duration: 12s;
+  }
+  
+  .beam6 {
+    left: 85%;
+    animation-duration: 18s;
+  }
+  
+  @keyframes glide {
+    from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translateY(100%);
+    }
+  }
+  
