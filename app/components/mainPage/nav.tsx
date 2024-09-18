@@ -12,13 +12,13 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-primary-dark text-white   w-full z-50 shadow-md">
+    <nav className="bg-primary-dark text-white  w-full z-50 shadow-md">
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         {/* Logo */}
         <Link href="/">
           <motion.a
-            className="text-2xl font-bold"
-            whileHover={{ scale: 1.1 }}
+            className="text-3xl tracking-wider font-bold"
+            whileHover={{ scale: 1.4 }}
             whileTap={{ scale: 0.95 }}
           >
             Abel J.
@@ -28,22 +28,22 @@ const Navbar = () => {
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-6">
           <Link href="#home">
-            <motion.a whileHover={{ scale: 1.1 }} className="hover:text-gray-200">
+            <motion.a whileHover={{ scale: 1.1 }} className="hover:text-accent-light text-lg">
               Home
             </motion.a>
           </Link>
           <Link href="#about">
-            <motion.a whileHover={{ scale: 1.1 }} className="hover:text-gray-200">
+            <motion.a whileHover={{ scale: 1.1 }} className="hover:text-accent-light text-lg">
               About
             </motion.a>
           </Link>
           <Link href="#projects">
-            <motion.a whileHover={{ scale: 1.1 }} className="hover:text-gray-200">
+            <motion.a whileHover={{ scale: 1.1 }} className="hover:text-accent-light text-lg">
               Projects
             </motion.a>
           </Link>
           <Link href="#contact">
-            <motion.a whileHover={{ scale: 1.1 }} className="hover:text-gray-200">
+            <motion.a whileHover={{ scale: 1.1 }} className="hover:text-accent-light text-lg">
               Contact
             </motion.a>
           </Link>

@@ -39,7 +39,7 @@ const Projects = () => {
     <section className="py-12 relative bg-background" id="projects">
         <Background />
       <div className="container mx-auto px-6">
-        <h2 className="text-4xl font-bold text-accent-dark mb-8">My Projects</h2>
+        <h2 className="text-4xl lg:text-center text-left font-bold text-accent-dark mb-8">My Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 z-50">
           {projects.map((project, index) => (
             <ProjectCard 
