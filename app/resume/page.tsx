@@ -128,7 +128,7 @@ const Resume = () => {
         </section>
       </div>
 
-     <div className='w-full p-2 flex justify-start items-center gap-7'>
+     <div className='w-full p-2 flex justify-start items-center text-sm lg:text-lg gap-7'>
      <button
         onClick={downloadResume}
         className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
