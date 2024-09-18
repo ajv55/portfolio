@@ -15,37 +15,31 @@ const Navbar = () => {
     <nav className="bg-primary-dark text-white  w-full z-50 shadow-md">
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         {/* Logo */}
-        <Link href="/">
-          <motion.a
-            className="text-3xl tracking-wider font-bold"
-            whileHover={{ scale: 1.4 }}
-            whileTap={{ scale: 0.95 }}
-          >
-            Abel J.
-          </motion.a>
+        <Link className="text-3xl tracking font-bold" href="/">
+            Abel J
         </Link>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-6">
-          <Link href="#home">
-            <motion.a whileHover={{ scale: 1.1 }} className="hover:text-accent-light text-lg">
+          <Link className="hover:text-accent-light text-lg" href="#home">
+            
               Home
-            </motion.a>
+            
           </Link>
-          <Link href="#about">
-            <motion.a whileHover={{ scale: 1.1 }} className="hover:text-accent-light text-lg">
+          <Link className="hover:text-accent-light text-lg" href="#about">
+            
               About
-            </motion.a>
+            
           </Link>
-          <Link href="#projects">
-            <motion.a whileHover={{ scale: 1.1 }} className="hover:text-accent-light text-lg">
+          <Link className="hover:text-accent-light text-lg" href="#projects">
+            
               Projects
-            </motion.a>
+            
           </Link>
-          <Link href="#contact">
-            <motion.a whileHover={{ scale: 1.1 }} className="hover:text-accent-light text-lg">
+          <Link className="hover:text-accent-light text-lg" href="#contact">
+            
               Contact
-            </motion.a>
+            
           </Link>
         </div>
 
