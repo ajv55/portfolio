@@ -49,7 +49,7 @@ const Navbar = () => {
       {/* Mobile Dropdown Menu */}
       <AnimatePresence>{isOpen && (
         <motion.div
-          className="fixed top-12 lg:hidden  right-0 w-48 h-[14rem] rounded-xl bg-gradient-to-bl from-background to-primary-dark flex flex-col justify-between items-start shadow-lg z-50"
+          className="fixed top-12 lg:hidden  right-0 w-48 h-[15rem] rounded-xl bg-gradient-to-bl from-background to-primary-dark flex flex-col justify-between items-start shadow-lg z-50"
           initial={{ scale:0, opacity: 0, y: '-100vw'  }}
           animate={{ scale: 1, opacity: 1, y: 0 }}
           exit={{ scale:0, opacity: 0, y: '-100vw'  }}
@@ -68,6 +68,9 @@ const Navbar = () => {
             <Link className="text-lg hover:text-gray-200" href="#contact" onClick={toggleMenu}>
               Contact
             </Link>
+            <Link className="hover:text-accent-light text-lg" onClick={toggleMenu} href="/resume">
+              Resume
+          </Link>
           </div>
         </motion.div>
       )}</AnimatePresence>
