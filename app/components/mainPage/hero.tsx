@@ -45,7 +45,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.2, ease: 'easeOut' }}
           className="text-lg text-text-primary max-w-xl text-left sm:text-xl"
         >
-          A passionate web developer specializing in creating dynamic, responsive, and interactive web applications using modern technologies like <span className='text-accent-dark'><Typewriter words={[
+          A passionate fullstack web developer specializing in creating dynamic, responsive, and interactive web applications using modern technologies like <span className='text-accent-dark'><Typewriter words={[
   'JavaScript',
   'Next.js',
   'React',

@@ -17,7 +17,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, image, de
     <div className="relative p-6 group hover:bg-background hover:shadow-accent-light bg-foreground rounded-lg shadow-lg overflow-hidden">
       <div className="relative z-10 flex flex-col h-full justify-between">
         <div className="mb-4">
-          <h3 className="text-xl font-semibold text-primary-dark group-hover:text-accent-dark mb-2">{title}</h3>
+          <h3 className="lg:text-xl text-2xl font-semibold text-primary-dark group-hover:text-accent-dark mb-2">{title}</h3>
           <p className="text-primary-dark group-hover:text-text-primary  mb-4">{description}</p>
           <div className="relative h-48">
             <Image

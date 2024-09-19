@@ -131,13 +131,13 @@ const Resume = () => {
      <div className='w-full p-2 flex lg:justify-start justify-evenly items-center text-sm lg:text-lg lg:gap-7'>
      <button
         onClick={downloadResume}
-        className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+        className="bg-primary hover:bg-accent-dark text-white font-bold py-2 px-4 rounded"
       >
         Download Resume
       </button>
       <Link
         href='/'
-        className="bg-blue-500 flex  gap-2 justify-between items-center hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+        className="bg-primary flex  gap-2 justify-between items-center hover:bg-accent-dark text-white font-bold py-2 px-4 rounded"
       >
         <IoHome size={19} className='text-white' />
         Back to Home
