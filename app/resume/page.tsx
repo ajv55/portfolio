@@ -106,9 +106,9 @@ const Resume = () => {
           <h2 className="text-2xl font-semibold">Skills</h2>
           <ul className="list-disc list-inside mt-2">
             <li><strong>Front-end:</strong> HTML, CSS, JavaScript, React, Next.js, Tailwind CSS, TypeScript</li>
-            <li><strong>Back-end:</strong> Node.js, MongoDB, Prisma, Express</li>
-            <li><strong>Tools:</strong> Git, Vercel, Storybook, Stripe, Framer Motion</li>
-            <li><strong>Testing:</strong> Jest, React Testing Library, Cypress</li>
+            <li><strong>Back-end:</strong> Node.js, MongoDB, Prisma</li>
+            <li><strong>Tools:</strong> Git, Vercel, Stripe, Framer Motion, Resend, Next Auth, Next Intl</li>
+            <li><strong>Testing:</strong> Jest, React Testing Library</li>
           </ul>
         </section>
 
