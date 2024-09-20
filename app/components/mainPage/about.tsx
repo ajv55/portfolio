@@ -33,7 +33,7 @@ export default function About() {
         transition={{ duration: 1, delay: 0.6, ease: 'easeOut' }}
         className="mt-4 text-xl text-neutral-dark max-w-4xl mx-auto"
       >
-        Hi, I&#39;m Abel, a self-taught web developer with a passion for creating beautiful and functional web applications.
+        Hi, I&#39;m Abel, a self-taught full-stack web developer with a passion for creating beautiful and functional web applications.
         I specialize in building modern, responsive websites using Next.js, React, TypeScript, and Tailwind CSS. 
         My background includes hands-on experience with APIs, databases, and testing, which allows me to craft 
         end-to-end solutions tailored to meet diverse needs.
