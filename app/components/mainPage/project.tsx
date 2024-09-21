@@ -1,5 +1,8 @@
+'use client'
+import { useEffect, useRef } from 'react';
 import Background from '../backgound';
 import ProjectCard from './projectCard';
+import { useAnimation, useInView, motion } from 'framer-motion';
 
 const projects = [
     {
@@ -35,15 +38,27 @@ const projects = [
   
 
 const Projects = () => {
+
+  const ref = useRef(null);
+  const isInView = useInView(ref);
+  const mainControls = useAnimation();
+
+  useEffect(() => {
+    if(isInView) {
+      mainControls.start('visible')
+    }
+  }, [isInView, mainControls])
+
+
   return (
-    <section className="py-12 relative bg-background" id="projects">
+    <section ref={ref} className="py-12 relative bg-background" id="projects">
         <Background />
       <div className="container mx-auto px-6">
         <h2 className="text-4xl lg:text-center text-left font-bold text-accent-dark mb-8">My Projects</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 z-50">
+        <div  className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 z-50">
           {projects.map((project, index) => (
-            <ProjectCard 
-              key={index}
+            <motion.div className='w-full grid grid-cols-1'  initial={{scale: 0, opacity: 0, y: -50}} variants={{visible: {scale: 1, opacity: 1, y: 0}}} animate={mainControls} transition={{duration: 1, stiffness: 100, delay: index * 0.5, type: 'spring' }} key={index}>
+              <ProjectCard 
               title={project.title}
               description={project.description}
               image={project.image}
@@ -51,6 +66,7 @@ const Projects = () => {
               githubLink={project.githubLink}
               npmLink={project?.npmLink}
             />
+            </motion.div>
           ))}
         </div>
       </div>

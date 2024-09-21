@@ -65,7 +65,7 @@ export default function Skills() {
             key={index}
             className="p-6 z-50 bg-neutral-light rounded-lg shadow-lg flex lg:flex-row flex-col items-center justify-center"
             whileHover={{ scale: 1.1, rotate: 5 }}
-            transition={{ type: 'spring', stiffness: 300 , }}
+            transition={{ type: 'spring', stiffness: 300 , duration: 1}}
           >
             <div className="text-primary">{skill.icon}</div>
             <p className="mt-2 text-xl font-medium text-primary">{skill.label}</p>

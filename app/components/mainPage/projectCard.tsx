@@ -1,3 +1,4 @@
+'use client';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -14,7 +15,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, image, de
 
 
   return (
-    <div className="relative p-6 group hover:bg-background hover:shadow-accent-light bg-foreground rounded-lg shadow-lg overflow-hidden">
+    <div  className="relative p-6 group hover:bg-background hover:shadow-accent-light bg-foreground rounded-lg shadow-lg overflow-hidden">
       <div className="relative z-10 flex flex-col h-full justify-between">
         <div className="mb-4">
           <h3 className="lg:text-xl text-2xl font-semibold text-primary-dark group-hover:text-accent-dark mb-2">{title}</h3>
