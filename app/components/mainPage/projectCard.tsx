@@ -2,6 +2,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { FaDocker } from "react-icons/fa";
+import { useMedia } from 'use-media';
 
 interface ProjectCardProps {
   title: string;
@@ -15,6 +16,7 @@ interface ProjectCardProps {
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, image, demoLink, githubLink, npmLink, dockerLink }) => {
 
+  const isSmallScreen = useMedia({ maxWidth: '768px' });
 
   return (
     <div  className="relative p-6 group hover:bg-background hover:shadow-accent-light bg-foreground rounded-lg shadow-lg overflow-hidden">
@@ -34,7 +36,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, image, de
         </div>
 
         <div className="flex justify-between item-center space-x-4">
-          <div className='flex space-x-2'>
+          <div className='flex justify-evenly items-center space-x-2'>
           {demoLink && (
             <Link className="text-indigo-400 hover:text-indigo-100" target="_blank" rel="noopener noreferrer" href={demoLink} passHref>
                 Live Demo
@@ -51,7 +53,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, image, de
             </Link>
           )}
           </div>
-          <Link target="_blank" passHref rel="noopener noreferrer" href={dockerLink!}><FaDocker size={30} className='text-blue-600' /></Link>
+          <Link target="_blank" passHref rel="noopener noreferrer" href={dockerLink!}><FaDocker size={isSmallScreen ? 27 : 30 } className='text-blue-600' /></Link>
         </div>
       </div>
     </div>
