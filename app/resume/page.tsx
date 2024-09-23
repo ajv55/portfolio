@@ -58,6 +58,7 @@ const Resume = () => {
                 <li>Implemented reusable, scalable components with a focus on flexibility and ease of use, ensuring smooth integration into modern web applications.</li>
                 <li>Created custom <strong>Node.js scripts</strong> to automate build processes and improve library usability, supporting seamless setup and updates.</li>
                 <li>Prioritized accessibility, responsiveness, and cross-browser compatibility to meet industry standards and ensure a consistent user experience.</li>
+                <li>Containerized the library using <strong>Docker</strong> for streamlined deployment across multiple environments.</li> 
                 <li>Published and maintained the Quick UI Library on <strong>npm</strong>, providing clear documentation for developers to integrate and contribute.</li>
             </ul>
         </div>
@@ -72,6 +73,7 @@ const Resume = () => {
               <li>Integrated secure authentication with <strong>NextAuth</strong>, user data management, and Stripe for premium subscriptions.</li>
               <li>Created analytics features to monitor user progress, calorie tracking, and exercise logs.</li>
               <li>Enhanced performance and scalability by deploying the app on <strong>Vercel</strong>.</li>
+              <li>Deployed the application in a containerized environment using <strong>Docker</strong> to ensure consistent performance across multiple platforms.</li> 
             </ul>
           </div>
           
@@ -85,6 +87,7 @@ const Resume = () => {
                     <li>Built a pre-configured landing page, user authentication with <strong>NextAuth</strong>, and Stripe payment integration, enabling rapid deployment of SaaS or e-commerce projects.</li>
                     <li>Focused on enhancing developer productivity by providing a solid foundation for modern web applications, allowing for quick scaling and customization.</li>
                     <li>Published and maintained the Template Genius package on <strong>npm</strong>, offering clear documentation for easy adoption and integration.</li>
+                    <li>Created <strong>Docker images</strong> to simplify deployment, ensuring the template can be run consistently in any environment.</li>
                 </ul>
             </div>
 
@@ -98,6 +101,7 @@ const Resume = () => {
               <li>Designed a user-friendly admin panel for managing orders, products, and real-time order tracking.</li>
               <li>Ensured seamless integration with payment gateways for secure transactions.</li>
               <li>Focused on responsive design and optimized performance for a smooth user experience.</li>
+              <li>Used <strong>Docker</strong> for seamless deployment across different environments, ensuring a consistent and scalable app experience.</li> 
             </ul>
           </div>
         </section>
@@ -106,7 +110,7 @@ const Resume = () => {
           <h2 className="text-2xl font-semibold">Skills</h2>
           <ul className="list-disc list-inside mt-2">
             <li><strong>Front-end:</strong> HTML, CSS, JavaScript, React, Next.js, Tailwind CSS, TypeScript</li>
-            <li><strong>Back-end:</strong> Node.js, MongoDB, Prisma</li>
+            <li><strong>Back-end:</strong> Node.js, MongoDB, Prisma, Docker</li>
             <li><strong>Tools:</strong> Git, Vercel, Stripe, Framer Motion, Resend, Next Auth, Next Intl</li>
             <li><strong>Testing:</strong> Jest, React Testing Library</li>
           </ul>

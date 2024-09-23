@@ -4,6 +4,7 @@ import { useEffect, useRef } from 'react';
 import { FaJs, FaReact, FaNodeJs, FaDatabase, FaHtml5, FaCss3Alt, FaStripe } from 'react-icons/fa'; 
 import { SiTypescript, SiTailwindcss, SiFramer, SiNextdotjs, SiJest, SiRedux, SiPrisma, SiResend, SiChartdotjs, SiThreedotjs, SiPostman } from 'react-icons/si';
 import { MdSecurity } from 'react-icons/md'; // For NextAuth
+import { FaDocker } from "react-icons/fa";
 import Background from '../backgound';
 import { useMedia } from 'use-media';
 
@@ -45,6 +46,7 @@ export default function Skills() {
       { icon: <SiChartdotjs size={ smallScreen ? 48 : 38} />, label: 'Chart.js' },
       { icon: <SiThreedotjs size={ smallScreen ? 48 : 38} />, label: 'Three.js' },
       { icon: <SiNextdotjs size={ smallScreen ? 48 : 38} />, label: 'Next-Intl' }, // For internationalization in Next.js
+      { icon: <FaDocker size={ smallScreen ? 48 : 38} />, label: 'Docker' },
     ];
 
   return (

@@ -11,6 +11,7 @@ const projects = [
       image: '/quickui.jpeg', 
       demoLink: 'https://quickuilibrary.vercel.app/', 
       githubLink: 'https://github.com/ajv55/quickui',
+      dockerLink: 'https://hub.docker.com/repository/docker/abelj5/quick-ui/general'
     },
     {
         title: 'MyFitGenius',
@@ -18,6 +19,7 @@ const projects = [
         image: '/myfitgenius.jpeg', 
         demoLink: 'https://www.myfitgenius.com/', 
         githubLink: 'https://github.com/ajv55/health',
+        dockerLink: 'https://hub.docker.com/repository/docker/abelj5/myfitgenius/general'
       },
       {
         title: 'PapasLlenos',
@@ -25,6 +27,7 @@ const projects = [
         image: '/papas.jpeg', 
         demoLink: 'https://www.papasllenos.com/', 
         githubLink: 'https://github.com/ajv55/papas',
+        dockerLink: 'https://hub.docker.com/repository/docker/abelj5/papasllenos/general'
       },
       {
         title: 'Template-Genius',
@@ -33,6 +36,7 @@ const projects = [
         demoLink: 'https://template-genius.vercel.app/', 
         githubLink: 'https://github.com/ajv55/template',
         npmLink: 'https://www.npmjs.com/package/template-genius', 
+        dockerLink: 'https://hub.docker.com/repository/docker/abelj5/template-genius/general'
       },
   ];
   
@@ -65,6 +69,7 @@ const Projects = () => {
               demoLink={project.demoLink}
               githubLink={project.githubLink}
               npmLink={project?.npmLink}
+              dockerLink={project?.dockerLink}
             />
             </motion.div>
           ))}
