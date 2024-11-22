@@ -129,7 +129,7 @@ const ContactForm = () => {
             <FaGithub size={32} />
           </motion.a>
           <motion.a
-            href="https://www.linkedin.com/in/abel-villareal-630536320/"
+            href="https://www.linkedin.com/in/abel-villareal/"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.2 }}

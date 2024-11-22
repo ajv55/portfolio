@@ -12,7 +12,7 @@ const Footer = () => {
             <Link className="text-text-secondary hover:text-text-accent" target="_blank" rel="noopener noreferrer" href="https://github.com/ajv55" passHref>
                 <FaGithub size={24} />
             </Link>
-            <Link className="text-text-secondary hover:text-text-accent" target="_blank"  href="https://www.linkedin.com/in/abel-villareal-630536320/" passHref>
+            <Link className="text-text-secondary hover:text-text-accent" target="_blank"  href="https://www.linkedin.com/in/abel-villareal/" passHref>
                 <FaLinkedin size={24} />
             </Link>
           </div>

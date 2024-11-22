@@ -41,7 +41,7 @@ const Resume = () => {
         <header className="mb-6">
           <h1 className="text-3xl font-bold">Abel J.Villareal</h1>
           <p className="text-sm">
-            Immokalee, Fl, USA | abejevilla55@gmail.com | <a href="https://www.linkedin.com/in/abel-villareal-630536320/" target='_blank' className="text-blue-500">LinkedIn</a> | <a href="https://github.com/ajv55" target='_blank' className="text-blue-500">GitHub</a>
+            Immokalee, Fl, USA | abejevilla55@gmail.com | <a href="https://www.linkedin.com/in/abel-villareal/" target='_blank' className="text-blue-500">LinkedIn</a> | <a href="https://github.com/ajv55" target='_blank' className="text-blue-500">GitHub</a>
           </p>
         </header>
 
